@@ -97,5 +97,3 @@ updates();
   console.log (programming.languages)
   console.log(Object.keys(programming))
   console.log(Object.values(programming))
-
-
