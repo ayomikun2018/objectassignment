@@ -1,3 +1,19 @@
+ //// CLASSWORK
+ function showPrimes (limit){
+    let array = []
+    for (let i = 0 ; i <=limit; i++){
+       if (i === 2){
+        array.push(i)
+      }
+      else if (i % 2 !== 0) {
+        array.push(i)
+      }
+    }
+    console.log(array)
+    }
+    showPrimes(10)
+
+// OBJECT ASSIGNMENT
 // // Exercise 1
 let  address = {
   street: 'lekki',
@@ -97,3 +113,4 @@ updates();
   console.log (programming.languages)
   console.log(Object.keys(programming))
   console.log(Object.values(programming))
+
